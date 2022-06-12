@@ -9,3 +9,4 @@ DeploymentSpec(
         cron="0 9 15 * *",
         timezone="Asia/Kolkata"),
 )
+
