@@ -19,3 +19,7 @@ localstack  | 2022-08-01T16:20:05.198  INFO --- [  Thread-108] hypercorn.error  
 localstack  | 2022-08-01T16:20:05.198  INFO --- [  Thread-108] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
 localstack  | 2022-08-01T16:20:05.467  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 3683.21ms
 localstack  | Ready.
+
+Input file being present in the 'in' folder of s3 bucket:
+D:\Files\mlops\mlops-zoomcamp\mlops-zoomcamp\06-homework>aws --endpoint-url=http://localhost:4566 --no-sign-request --recursive s3 ls nyc-duration
+2022-08-01 14:51:11   10645466 in/fhv_tripdata_2021-02.parquet
