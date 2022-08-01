@@ -1,0 +1,21 @@
+D:\Files\mlops\mlops-zoomcamp\mlops-zoomcamp\06-homework>docker compose up
+[+] Running 1/0
+ - Container localstack  Created                                                                                                                                                                              0.0s
+Attaching to localstack
+localstack  | Waiting for all LocalStack services to be ready
+localstack  | 2022-08-01 16:19:59,348 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+localstack  | 2022-08-01 16:19:59,350 INFO supervisord started with pid 14
+localstack  | 2022-08-01 16:20:00,355 INFO spawned: 'infra' with pid 19
+localstack  | SERVICES variable is ignored if EAGER_SERVICE_LOADING=0.
+localstack  | 2022-08-01 16:20:01,592 INFO success: infra entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+localstack  |
+localstack  | LocalStack version: 1.0.4.dev
+localstack  | LocalStack build date: 2022-08-01
+localstack  | LocalStack build git hash: 9cc34be4
+localstack  |
+localstack  | 2022-08-01T16:20:05.196  WARN --- [  Thread-108] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+localstack  | 2022-08-01T16:20:05.196  WARN --- [  Thread-108] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+localstack  | 2022-08-01T16:20:05.198  INFO --- [  Thread-108] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+localstack  | 2022-08-01T16:20:05.198  INFO --- [  Thread-108] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+localstack  | 2022-08-01T16:20:05.467  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 3683.21ms
+localstack  | Ready.
